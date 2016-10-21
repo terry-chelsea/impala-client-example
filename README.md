@@ -3,6 +3,8 @@
 This is a Impala client example, cause user can access impala use Hive jdbc / Impala jdbc or thrift API.
 This client example contain all three methods, cause we need kerberos in our env, We need create another SASL Trsnaport in thrift examples.
 
+In normal condition, I access impala with impala-shell and HUE, they both use thrift api implements with Python, I some confition, we need access it with Java, this is where the project comes from.
+
 #Usage:
 
 * 1. before compale and package, you need modify pom.xml to set thrift path in your local env.(If linux, you can run 'which thrift' to find the path, In Windows, you can find thrift.exe in bin directory)
